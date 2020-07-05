@@ -1,0 +1,6 @@
+# Write a script which delete an ACTIVE user on the VM
+
+#!/bin/bash
+echo Name ; read NAME
+pkill -9 -u $NAME
+userdel -rf $NAME

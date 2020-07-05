@@ -1,0 +1,7 @@
+# Find the external IP of 42.fr
+
+# nslookup -type=ns 42.fr  
+# nslookup 42.fr ns2.42.fr | grep Address: | sed 's/[^0-9.]//g' | cut -c1-23 | grep 163 | sort
+
+163.172.250.12
+163.172.250.13

@@ -1,0 +1,9 @@
+# Query an external DNS server on the slash16.org domain name (ie. : google 8.8.8.8)
+# определить IP-адрес узла slash16.org c использованием DNS-сервера 8.8.8.8 (публичный DNS-сервер Google),
+# вместо DNS-сервера, заданного в настройках сетевого подключения.
+
+nslookup slash16.org 8.8.8.8
+
+# nslookup - предоставляет возможность в режиме онлайн узнать содержание DNS зоны домена.
+# nslookup -type=ns slash16.org позволит узнать авторитетый источник для получения информации
+# Подробнее https://serverfault.com/questions/413124/dns-nslookup-what-is-the-meaning-of-the-non-authoritative-answer#:~:text=The%20answer%20you've%20received,Google's%20name%20records%2C%20for%20example.

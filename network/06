@@ -1,0 +1,9 @@
+# Get the complete path of the file that contains the IP address of the DNS server you’re using
+
+# /etc/resolv.conf
+
+# В фале resolv.conf содержатся адреса серверов имен, к которым имеет доступ данная система. 
+# В этом файле можно создавать три типа записей, каждая из которых предваряется одним из трех ключевых слов:
+# domain, nameserver,search.
+# Для каждого сервера имен, к которому имеет доступ данная система, вводиься ключевое слово nameserver и IP-адрес.
+# (Подробнее https://www.shellhacks.com/ru/setup-dns-resolution-resolvconf-example/)

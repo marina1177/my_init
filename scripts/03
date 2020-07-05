@@ -1,0 +1,12 @@
+#!/bin/bash
+echo val ; read VAL
+if [ $VAL -gt 29 ]
+then
+echo "$VAL is greater than X"
+else
+echo "$VAL is not greater than X"
+fi
+if [ $VAL -eq 29 ] 
+then
+echo "Bingo! $VAL is X"
+fi

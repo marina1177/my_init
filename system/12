@@ -1,0 +1,8 @@
+# Figure out the exact size of each folder of /var in a humanly understandable way
+# followed by the path of it.
+
+sudo du -sh /var/* 
+
+# Команда du (disk usage)  отображает размер дискового пространства, занятого файлами или каталогами.
+# –s  выводит итоговую информацию об использовании дискового пространства без информации о каталогах.
+# -h  вывести инофрмацию в человекочитаемом виде.

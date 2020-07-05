@@ -1,0 +1,5 @@
+# Thanks to the previous question and the reverse DNS find the name of your host
+
+# host 192.168.1.37
+
+Host 37.1.168.192.in-addr.arpa. not found: 3(NXDOMAIN)

@@ -1,0 +1,5 @@
+# Identify the network devices between your computer and the slash16.org domain
+
+traceroute slash16.org
+
+# Подробнее: man traceroute, https://mediatemple.net/community/products/dv/204643870/using-the-traceroute-command

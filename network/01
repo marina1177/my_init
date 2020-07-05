@@ -1,0 +1,3 @@
+ifconfig -l
+
+# подсказка обозначений портов networksetup -listallhardwareports
